@@ -1,0 +1,7 @@
+<div id="testContainer" *ngIf="status; else videoContent">
+    <img #imageContainer class="imageContainer">
+</div>
+
+<ng-template #videoContent>
+    <video #videoContainer muted="muted" class="videoContainer"></video>
+</ng-template>

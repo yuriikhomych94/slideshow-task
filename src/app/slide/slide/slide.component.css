@@ -1,0 +1,15 @@
+* {
+    text-align: center;
+    background-color: rgb(26, 25, 25);
+}
+
+.imageContainer {
+    width: 80%;
+    height: 100vh;
+}
+
+
+.videoContainer {
+    width: 100%;
+    height: 100vh;
+}
